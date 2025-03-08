@@ -1,23 +1,21 @@
----
-
-# **Product Management API Assignment**  
-**Subject:** Product Management API Assignment – Submission Deadlines & Marking Scheme
+# Product Management API Assignment
+**Subject:** Product Management API Assignment 
 
 ---
 
-## **Dear Students,**
+## Dear Students,
 
 I hope you are doing well. This document provides all the details related to the **Product Management API Assignment**, including the assignment overview, objectives, marking scheme, and important submission deadlines. Please read it carefully and make sure to submit your work on time to avoid any issues.
 
 ---
 
-## **1. Overview**
+## 1. Overview
 
 In this assignment, you will develop a **RESTful API** for managing products using **Spring Boot** and **MongoDB**. The goal is to create a fully functional **CRUD (Create, Read, Update, Delete)** application that allows users to add, view, update, and remove products from the database. You will also demonstrate your API using **Postman** and verify data storage in **MongoDB**.
 
 ---
 
-## **2. Objectives**
+## 2. Objectives
 
 1. **API Development**  
    - Implement a RESTful API with endpoints to perform CRUD operations on a product collection.
@@ -36,7 +34,7 @@ In this assignment, you will develop a **RESTful API** for managing products usi
 
 ---
 
-## **3. Product Data Model**
+## 3. Product Data Model
 
 Your product model should include (but is not limited to) the following attributes:
 
@@ -47,18 +45,18 @@ Your product model should include (but is not limited to) the following attribut
 - **Quantity:** The available quantity in stock.  
 - **Category (Optional):** The category to which the product belongs.
 
-> *Note:* You may add other fields as required or beneficial for your application.
+> **Note:** You may add other fields as required or beneficial for your application.
 
 ---
 
-## **4. API Endpoints**
+## 4. API Endpoints
 
 You must implement the following endpoints:
 
 1. **Create Product**  
    - **Endpoint:** `POST /api/products`  
    - **Function:** Create a new product.  
-   - **Request Body Example:**  
+   - **Request Body Example:**
      ```json
      {
        "name": "Wireless Mouse",
@@ -67,7 +65,7 @@ You must implement the following endpoints:
        "quantity": 100,
        "category": "Electronics"
      }
-     ```  
+     ```
    - **Response:** The created product with a unique Product ID.
 
 2. **Read All Products**  
@@ -83,13 +81,13 @@ You must implement the following endpoints:
 4. **Update Product**  
    - **Endpoint:** `PUT /api/products/{id}`  
    - **Function:** Update an existing product's details.  
-   - **Request Body Example (Only the fields to be updated):**  
+   - **Request Body Example (Only the fields to be updated):**
      ```json
      {
        "price": 24.99,
        "quantity": 150
      }
-     ```  
+     ```
    - **Response:** The updated product details.
 
 5. **Delete Product**  
@@ -99,7 +97,7 @@ You must implement the following endpoints:
 
 ---
 
-## **5. Implementation Guidelines**
+## 5. Implementation Guidelines
 
 1. **Project Setup**  
    - Use the latest version of Spring Boot.  
@@ -117,7 +115,7 @@ You must implement the following endpoints:
 
 ---
 
-## **6. Demonstration Requirements**
+## 6. Demonstration Requirements
 
 1. **Postman API Testing**  
    - Prepare a Postman collection that includes requests for all the endpoints.  
@@ -136,7 +134,7 @@ You must implement the following endpoints:
 
 ---
 
-## **7. Project Documentation**
+## 7. Project Documentation(Do this documentation in Readme File in github)
 
 Your final submission should include:
 
@@ -150,16 +148,17 @@ Your final submission should include:
    - Evidence of API testing in Postman and MongoDB data verification.
 
 4. **Project Report**  
-   - A document detailing:  
+   - A document detailing:
      - Project overview and objectives.  
      - Explanation of the product data model and API endpoints.  
      - Implementation details and any additional features.  
      - Testing strategy and demo instructions.  
      - Challenges faced and how you addressed them.
+ 
 
 ---
 
-## **8. Marking Scheme**
+## 8. Marking Scheme
 
 Your submission will be evaluated out of **100 marks** based on the following criteria:
 
@@ -175,41 +174,41 @@ Your submission will be evaluated out of **100 marks** based on the following cr
 | **Overall rating**               |       10  |
 | **Total**                        | **100**   |
 
-1. **Code or GitHub (35 Marks):**  
+1. **Code or GitHub (35 Marks)**  
    - Well-structured code with proper naming conventions.  
    - Clear project structure, following Spring Boot best practices.  
    - Proper use of Git or GitHub for version control.
 
-2. **Video Demonstrations (25 Marks Total):**  
+2. **Video Demonstrations (25 Marks Total)**  
    - **Video without access (5 Marks)**  
    - **Video with access (5 Marks)**  
    - **Video with output (10 Marks)**  
-   - **Video with audio (5 Marks)**  
+   - **Video with audio (5 Marks)**
    > Demonstrate how to run the application, show the Postman requests, and confirm that data is correctly stored in MongoDB.
 
-3. **Design (10 Marks):**  
+3. **Design (10 Marks)**  
    - Clarity of design, including consistent naming of endpoints, model attributes, and code readability.
 
-4. **Explanation of Code & Output (20 Marks):**  
+4. **Explanation of Code & Output (20 Marks)**  
    - Clear and concise explanation of how the code works.  
    - Ability to interpret and explain the output from the API endpoints.
 
-5. **Overall Rating (10 Marks):**  
+5. **Overall Rating (10 Marks)**  
    - Overall quality, completeness, and professionalism of your submission.
 
 ---
 
-## **9. Submission Deadlines & Phases**
+## 9. Submission Deadlines & Phases
 
 Please note the **start dates**, **end dates**, and **marks** for each phase. Submit your work within the specified phase to secure the corresponding marks:
 
 1. **Phase 1 – 100 Marks**  
    - **Opens:** Sunday, March 09, 2025, 9:00 AM  
-   - **Closes:** Monday, March 10, 2025, 12:00 AM  
+   - **Closes:** Wednesday, March 12, 2025, 12:00 AM  
 
 2. **Phase 2 – 90 Marks**  
-   - **Opens:** Monday, March 10, 2025, 9:00 AM  
-   - **Closes:** Tuesday, March 11, 2025, 12:00 AM  
+   - **Opens:** Wednesday, March 12, 2025, 9:00 AM  
+   - **Closes:** Thursday, March 13, 2025, 12:00 AM  
 
 3. **Phase 3 – 70 Marks**  
    - **Opens:** Friday, March 14, 2025, 9:00 AM  
@@ -223,7 +222,7 @@ Please note the **start dates**, **end dates**, and **marks** for each phase. Su
 
 ---
 
-## **10. Final Notes**
+## 10. Final Notes
 
 - Ensure your application runs smoothly and consistently before submission.  
 - Provide clear documentation to help the evaluator set up and test your project.  
@@ -231,11 +230,12 @@ Please note the **start dates**, **end dates**, and **marks** for each phase. Su
 
 ---
 
-**Good luck, and happy coding!**  
+**Good luck, and happy coding!**
+
 **Best Regards,**  
-*(Your Name / Instructor Name)*  
-*(Course / Institution Name)*
+*(Paindla Narendar Reddy)*  
+*(MERN STACK)*
 
 ---
 
-**End of Document**
+
